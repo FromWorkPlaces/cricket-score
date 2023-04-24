@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "cricket-score",
+    "slug": "cricket-score",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "cricket-score"
+}
