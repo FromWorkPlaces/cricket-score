@@ -1,21 +1,28 @@
 import React from 'react'
-import { Image, ImageBackground, SafeAreaView, ScrollView, Text, View } from 'react-native'
-
+import { Image, ImageBackground, SafeAreaView, ScrollView, Text, TouchableOpacity, View } from 'react-native'
+import Icon1 from 'react-native-vector-icons/AntDesign';
+import Icon2 from 'react-native-vector-icons/Entypo';
 
 export default function Home() {
   return (
     <ScrollView className='bg-gray-50' style={{flex: 1}}>
         <View className=''>
 
-            <View className='h-[150px] bg-emerald-800 absolute w-full'>
+            <View className='h-[150px] bg-emerald-800 pt-2 absolute w-full'>
                 <Image
                     className='w-full h-full absolute top-0 left-0 opacity-10'
                     resizeMode="cover"
                     source={require("../../../public/BG1.jpg")}
                 />
-                <View className='h-[80px] flex-row items-center justify-center pt-5'>
-                    <View className=''>
+                <View className='h-[80px] flex-row items-center justify-center pt-5 px-5'>
+                    <View className='flex-row items-center justify-between w-full'>
+                        <TouchableOpacity className='p-2'>
+                            <Icon1 name="arrowleft" size={20} color="#fff" />
+                        </TouchableOpacity>
                         <Text className='text-white font-semibold text-xl'>Cricket Live</Text>
+                        <TouchableOpacity className='p-2'>
+                            <Icon2 name="dots-three-vertical" size={20} color="#fff" />
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
