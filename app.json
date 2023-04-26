@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f0ff919b-7aff-4598-a92f-8639d9b08cfd"
+      }
+    }
   },
   "name": "cricket-score"
 }
