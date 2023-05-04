@@ -22,7 +22,7 @@ const VideoPlayerDemo = () => {
                 ref={video}
                 style={styles.video}
                 source={{
-                    uri: 'https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4',
+                    uri: 'http://localhost:5000/video/diablo',
                 }}
                 useNativeControls
                 resizeMode={ResizeMode.CONTAIN}
