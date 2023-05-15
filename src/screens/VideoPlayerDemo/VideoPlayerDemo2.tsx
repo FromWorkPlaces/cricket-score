@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { Button, ScrollView, StyleSheet, Text, View } from "react-native";
-import Video from 'react-native-video';
+// import Video from 'react-native-video';
 
 const VideoPlayerDemo2 = () => {
     const video = React.useRef<any>(null);
@@ -20,7 +20,7 @@ const VideoPlayerDemo2 = () => {
         <ScrollView className="bg-gray-50 mt-5" style={{ flex: 1 }}>
             <Text className="text-center my-10">Vide Player Demo</Text>
 
-            <Video source={{uri: "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4"}} style={styles.backgroundVideo} />
+            {/* <Video source={{uri: "https://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4"}} style={styles.backgroundVideo} /> */}
         </ScrollView>
     );
 };
